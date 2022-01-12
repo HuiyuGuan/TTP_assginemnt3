@@ -20,7 +20,7 @@ problemNum++;
 
 //4) Select a list item with a class of third, but only the list item inside of the ol tag.
 console.log("Problem #" + problemNum);
-let olThird = document.querySelector("ol.third")
+let olThird = document.querySelector("ol>.third")
 console.log(olThird);
 problemNum++;
 
